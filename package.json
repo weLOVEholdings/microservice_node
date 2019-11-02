@@ -1,0 +1,36 @@
+{
+  "name": "weloveeducation_microservice",
+  "version": "1.0.0",
+  "description": "Microservice base model for weLOVE.education",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nodemon --watch . --exec 'mocha --timeout 15000 || true'",
+    "start": "node server.js"
+  },
+  "author": "marcelopiomsf",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "config": "^1.26.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "minimist": "^1.2.0",
+    "mongoose": "^4.12.1",
+    "morgan": "^1.9.0",
+    "newrelic": "^2.2.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
